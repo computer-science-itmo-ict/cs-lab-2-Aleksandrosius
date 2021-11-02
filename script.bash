@@ -19,7 +19,8 @@ else
     sp2=$(($sp%100))
     sp3="${sp2#-}"
     if [[ $x*$y -lt 0 ]] && [[ $x/$y -eq 0 ]]; then
-    	echo "$sp1.$sp3"
-    else echo "-$sp1.$sp3"
+    	echo "-$sp1.$sp3"
+    else
+    	echo "$sp1.$sp3"    
 fi
 fi
